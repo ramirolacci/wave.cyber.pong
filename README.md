@@ -39,18 +39,6 @@
         <sub><b>02 // Arena Virtual & Motor de Físicas</b></sub>
       </td>
     </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="public/screenshots/Screenshot_1.png" alt="Interfaz cibernética y HUD" width="100%"/>
-        <br>
-        <sub><b>03 // HUD Holográfico & Telemetría</b></sub>
-      </td>
-      <td align="center" width="50%">
-        <img src="public/screenshots/Screenshot_2.png" alt="Simulación de Partido IA vs Player" width="100%"/>
-        <br>
-        <sub><b>04 // Ráfaga de Rally & Resplandor CRT</b></sub>
-      </td>
-    </tr>
   </table>
 </div>
 
