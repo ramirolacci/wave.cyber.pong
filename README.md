@@ -1,34 +1,82 @@
-# 🎛️ CYBER PONG — PingPong Táctico Cibernético
+<div align="center">
 
-[![React](https://img.shields.io/badge/React-19.2-blue?logo=react&logoColor=white&color=087ea4)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-8.1-purple?logo=vite&logoColor=white&color=646cff)](https://vite.dev)
-[![Web Audio API](https://img.shields.io/badge/Web_Audio_API-Synth-cyan?logo=javascript&logoColor=white&color=00fffc)](https://developer.mozilla.org/es/docs/Web/API/Web_Audio_API)
-[![Status](https://img.shields.io/badge/ESTADO-SEGURO_%2F%2F_EN_L%C3%8DNEA-brightgreen?style=flat-square&color=00ff55)](#)
+# 🎛️ CYBER PONG
 
-- - - - - - **Cyber Pong** Simulación definitiva, un juego de arcade retro-futurista desarrollado con **React + Vite** y renderizado en **HTML5 Canvas**. Juega Ping Pong sin descargar nada en una interfaz cibernética con estética Synthwave/Cyberpunk, efectos de audio sintetizados en tiempo real y una IA desafiante que pondrá a prueba tus reflejos.
+### **Simulación Táctica Retro-Futurista en Tiempo Real**
 
-> **DESARROLLADO POR [WAVEFRAME.COM.AR](https://waveframe.com.ar)** // SISTEMA OPERATIVO v1.0.0
-
----
-
-## ⚡ Características Principales
-
-*   **📺 Estética Retro CRT:** Efectos visuales de fósforo, barrido analógico de pantalla CRT y resplandor radial dinámico.
-*   **🎹 Sintetizador en Tiempo Real:** Sonido interactivo generado al vuelo usando la **Web Audio API** (sin archivos de audio estáticos). Ondas triangulares, sinusoidales y cuadradas dedicadas para cada rebote, gol y victoria/derrota.
-*   **🤖 IA Adaptativa:** Tres modos de dificultad programados (`Fácil`, `Medio`, `Difícil`) con físicas y predicción de trayectoria en tiempo real.
-*   **📊 HUD Holográfico:** Seguimiento de puntuación actual, racha máxima (*Max Rally*), selector de dificultad interactivo y control de pantalla completa.
-*   **📱 Diseño Responsivo & Modo Táctil:** Adaptado para dispositivos móviles con un sistema inteligente de bloqueo que exige rotar la pantalla a horizontal (*Landscape*) para iniciar la simulación.
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev)
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev)
+[![HTML5 Canvas](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/API/Canvas_API)
+[![Web Audio API](https://img.shields.io/badge/Web_Audio-Synth-00fffc?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/API/Web_Audio_API)
+[![Status](https://img.shields.io/badge/ESTADO-SEGURO_%2F%2F_EN_L%C3%8DNEA-00ff55?style=for-the-badge)](#)
 
 ---
 
-## 🕹️ Cómo Jugar
+<p align="center">
+  <b>Cyber Pong</b> es una experiencia arcade retro-futurista de alta fidelidad visual inspirada en la estética <i>Synthwave / Cyberpunk</i>.<br>
+  Desarrollado sobre <b>React + HTML5 Canvas</b>, integra sintesis de audio modular en tiempo real sin archivos multimedia externos y un motor de IA táctico adaptativo.
+</p>
 
-1.  **Iniciar la Simulación:** Selecciona la dificultad en el panel holográfico superior.
-2.  **Controles:**
-    *   **Teclado:** Usa las flechas `Arriba` / `Abajo` (o `W` / `S`) para mover tu pala.
-    *   **Táctil:** Arrastra tu dedo en el lado izquierdo de la pantalla para controlar la pala en dispositivos móviles.
-3.  **Objetivo:** Consigue llegar a la puntuación máxima antes que la IA manteniendo la pelota en juego y rompiendo tu récord de rebotes (*Rally*).
+> ⚡ **DESARROLLADO POR [WAVEFRAME.COM.AR](https://waveframe.com.ar)** // `SISTEMA OPERATIVO v1.0.0`
+
+</div>
 
 ---
 
+## 🖼️ Galería Visual // Matrix 2x2
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="public/screenshots/Screenshot_1.png" alt="Menú Holográfico de Dificultad" width="100%"/>
+        <br>
+        <sub><b>01 // Menú Táctico & Selección de Dificultad</b></sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="public/screenshots/Screenshot_2.png" alt="Simulación Cyber Pong en Vivo" width="100%"/>
+        <br>
+        <sub><b>02 // Arena Virtual & Motor de Físicas</b></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <img src="public/screenshots/Screenshot_1.png" alt="Interfaz cibernética y HUD" width="100%"/>
+        <br>
+        <sub><b>03 // HUD Holográfico & Telemetría</b></sub>
+      </td>
+      <td align="center" width="50%">
+        <img src="public/screenshots/Screenshot_2.png" alt="Simulación de Partido IA vs Player" width="100%"/>
+        <br>
+        <sub><b>04 // Ráfaga de Rally & Resplandor CRT</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## ⚡ Puntos Destacados
+
+* **📺 Estética Neon CRT de Alta Fidelidad:** Renderizado continuo en Canvas HTML5 con efectos analógicos de fósforo, barrido de líneas (scanlines) y resplandor radial retro.
+* **🎹 Sintetizador Procedural Web Audio API:** Generación de sonido interactivo en tiempo real mediante osciladores triangulares, sinusoidales y cuadradas. Sin archivos `.mp3` ni latencia de carga.
+* **🤖 IA Táctica Adaptativa:** Motor de oponente virtual programado con tres modos (`Fácil`, `Medio`, `Difícil`), predicción de trayectoria vectorial y comportamiento reactivo.
+* **📊 HUD Holográfico Integrado:** Panel de control futurista con contador de puntos, registro de racha máxima (*Max Rally*), alternador de modo pantalla completa y selector de dificultad en vivo.
+* **📱 Optimización Móvil & Control Táctil:** Interfaz responsiva con gestos táctiles directos y sistema de detección de orientación con aviso para dispositivos móviles (*Landscape lock*).
+
+---
+
+## 🕹️ Experiencia de Control
+
+| Entrada | Acción |
+| :--- | :--- |
+| ⬆️ / ⬇️  `Flechas` | Mover pala del jugador (Arriba / Abajo) |
+| `W` / `S` | Control alternativo de movimiento |
+| 👆 `Drag / Touch` | Deslizar dedo en pantalla táctil (Smartphones & Tablets) |
+| ⛶ `Pantalla Completa` | Alternar modo inmersivo en el HUD superior |
+
+---
+
+<div align="center">
+  <sub>Diseñado con pasión cibernética por <a href="https://waveframe.com.ar" target="_blank"><b>Waveframe Studio</b></a></sub>
+</div>
