@@ -23,7 +23,7 @@
 
 ---
 
-## 🖼️ Galería Visual // Matrix 2x2
+## 🖼️ Galería Visual //
 
 <div align="center">
   <table>
